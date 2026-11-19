@@ -55,8 +55,13 @@ MPC Radio is a radio dial that plays live internet stations, with hiss, crackle,
 4. Load Between Stations and ride Static, Squeal and Ghosts while recording to capture pure radio dirt with half-heard music underneath.
 5. Load Clean House, then bring up Wow and Room a little at a time and listen for the clean station turning into a worn tape playing in another room.
 
-## On your MPC
+## Put it on your MPC
 
-On the MPC, open the list of plugins. It is under External Plugins, by Steph. It is an effect, so it goes on an insert.
+1. Download the zip from the [latest release](https://github.com/Forge-Audio/mpc-radio/releases/latest) and unzip it. It holds one folder, `Steph - VST - MPC Radio`.
+2. Copy that folder into a folder called `VST2 Plugins` at the top of a USB drive or SD card.
+3. Put the drive in the MPC and restart the MPC's app.
+4. On the MPC, open the list of plugins. It is under External Plugins, by Steph. It is an effect, so it goes on an insert.
+
+The MPC needs MPC OS 3.10.1 or later, with External Plugin Support switched on under Preferences, Enhancements (Beta). This plugin brings in sound from the internet, so the MPC also has to be on a network with a way out to it.
 
 Made with [MP Forge](https://forge-audio.github.io/mp-forge/).
