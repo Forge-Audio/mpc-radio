@@ -1,0 +1,30 @@
+{
+  "kit": { "theme": "mono", "accent": "ff18a3a8" },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        { "param": "Tune",   "widget": "knob", "polarity": "unipolar" },
+        { "param": "Static", "widget": "knob", "polarity": "unipolar" },
+        { "param": "Squeal", "widget": "knob", "polarity": "unipolar" },
+        { "param": "Ghosts", "widget": "knob", "polarity": "unipolar" },
+        { "param": "Volume", "widget": "fader", "polarity": "unipolar" }
+      ]
+    },
+    {
+      "name": "FX",
+      "controls": [
+        { "param": "Speaker",   "widget": "knob", "polarity": "unipolar" },
+        { "param": "Drive",     "widget": "knob", "polarity": "unipolar" },
+        { "param": "Wow",       "widget": "knob", "polarity": "unipolar" },
+        { "param": "Room",      "widget": "knob", "polarity": "unipolar" },
+        { "param": "Echo",      "widget": "knob", "polarity": "unipolar" },
+        { "param": "Echo Time", "widget": "knob", "polarity": "unipolar" },
+        { "param": "Repeats",   "widget": "knob", "polarity": "unipolar" },
+        { "param": "Echo Tone", "widget": "knob", "polarity": "unipolar" },
+        { "param": "Speaker Type", "widget": "knob", "polarity": "unipolar", "overlay": "menu" }
+      ]
+    }
+  ],
+  "style": { "background": "ffcfcbbf", "accent": "ffff3b4e", "text": "ff24262b", "muted": "ff5a5c60" }
+}

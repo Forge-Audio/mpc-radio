@@ -1,0 +1,1449 @@
+{
+  "pages": [
+    {
+      "artwork": [
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 1,
+          "kind": "words",
+          "place": {
+            "x": 198,
+            "y": 46
+          },
+          "size": 26,
+          "text": "88"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 2,
+          "kind": "words",
+          "place": {
+            "x": 350,
+            "y": 46
+          },
+          "size": 26,
+          "text": "92"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 3,
+          "kind": "words",
+          "place": {
+            "x": 502,
+            "y": 46
+          },
+          "size": 26,
+          "text": "96"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 4,
+          "kind": "words",
+          "place": {
+            "x": 650,
+            "y": 46
+          },
+          "size": 26,
+          "text": "100"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 5,
+          "kind": "words",
+          "place": {
+            "x": 802,
+            "y": 46
+          },
+          "size": 26,
+          "text": "104"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 6,
+          "kind": "words",
+          "place": {
+            "x": 955,
+            "y": 46
+          },
+          "size": 26,
+          "text": "108"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 7,
+          "kind": "words",
+          "place": {
+            "x": 214,
+            "y": 128
+          },
+          "size": 22,
+          "text": "SOUL"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 8,
+          "kind": "words",
+          "place": {
+            "x": 275,
+            "y": 128
+          },
+          "size": 22,
+          "text": "HIPHOP"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 9,
+          "kind": "words",
+          "place": {
+            "x": 350,
+            "y": 128
+          },
+          "size": 22,
+          "text": "FUNK"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 10,
+          "kind": "words",
+          "place": {
+            "x": 410,
+            "y": 128
+          },
+          "size": 22,
+          "text": "REGGAE"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 11,
+          "kind": "words",
+          "place": {
+            "x": 490,
+            "y": 128
+          },
+          "size": 22,
+          "text": "JAZZ"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 12,
+          "kind": "words",
+          "place": {
+            "x": 544,
+            "y": 128
+          },
+          "size": 22,
+          "text": "AMBIENT"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 13,
+          "kind": "words",
+          "place": {
+            "x": 624,
+            "y": 128
+          },
+          "size": 22,
+          "text": "ROCK"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "Futura",
+          "id": 14,
+          "kind": "words",
+          "place": {
+            "x": 56,
+            "y": 34
+          },
+          "size": 44,
+          "text": "FM"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 15,
+          "kind": "words",
+          "place": {
+            "x": 58,
+            "y": 84
+          },
+          "size": 20,
+          "text": "STEREO"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 16,
+          "kind": "words",
+          "opacity": 75,
+          "place": {
+            "x": 58,
+            "y": 114
+          },
+          "size": 20,
+          "text": "SIGNAL"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "Futura",
+          "id": 17,
+          "kind": "words",
+          "place": {
+            "x": 1030,
+            "y": 82
+          },
+          "size": 60,
+          "text": "RADIO"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 18,
+          "kind": "words",
+          "place": {
+            "x": 1032,
+            "y": 162
+          },
+          "size": 22,
+          "text": "FM SAMPLING RECEIVER"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "Futura",
+          "id": 19,
+          "kind": "words",
+          "place": {
+            "x": 380,
+            "y": 208
+          },
+          "size": 20,
+          "text": "TUNER"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "Futura",
+          "id": 20,
+          "kind": "words",
+          "place": {
+            "x": 770,
+            "y": 208
+          },
+          "size": 20,
+          "text": "AIR"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "Futura",
+          "id": 22,
+          "kind": "words",
+          "place": {
+            "x": 690,
+            "y": 431
+          },
+          "size": 20,
+          "text": "OUTPUT"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 23,
+          "kind": "words",
+          "place": {
+            "x": 592,
+            "y": 254
+          },
+          "size": 34,
+          "text": "TUNE"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 24,
+          "kind": "words",
+          "place": {
+            "x": 838,
+            "y": 358
+          },
+          "size": 24,
+          "text": "STATIC"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 25,
+          "kind": "words",
+          "place": {
+            "x": 982,
+            "y": 358
+          },
+          "size": 24,
+          "text": "SQUEAL"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 26,
+          "kind": "words",
+          "place": {
+            "x": 1132,
+            "y": 358
+          },
+          "size": 24,
+          "text": "GHOSTS"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 30,
+          "kind": "words",
+          "place": {
+            "x": 699,
+            "y": 544
+          },
+          "size": 24,
+          "text": "VOLUME"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 32,
+          "kind": "words",
+          "place": {
+            "x": 688,
+            "y": 128
+          },
+          "size": 22,
+          "text": "HOUSE"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 33,
+          "kind": "words",
+          "place": {
+            "x": 755,
+            "y": 128
+          },
+          "size": 22,
+          "text": "WORLD"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 34,
+          "kind": "words",
+          "place": {
+            "x": 832,
+            "y": 128
+          },
+          "size": 22,
+          "text": "TALK"
+        },
+        {
+          "bold": true,
+          "colour": "#9ff2c9",
+          "font": "DIN Condensed",
+          "id": 35,
+          "kind": "words",
+          "place": {
+            "x": 888,
+            "y": 128
+          },
+          "size": 22,
+          "text": "CLASSIC"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 36,
+          "kind": "words",
+          "place": {
+            "x": 980,
+            "y": 549
+          },
+          "size": 20,
+          "text": "LIVE"
+        }
+      ],
+      "items": [
+        {
+          "depth": "front",
+          "kind": "picture",
+          "name": "needle",
+          "place": {
+            "x": 182,
+            "y": 46
+          },
+          "size": {
+            "height": 116,
+            "width": 796
+          }
+        },
+        {
+          "depth": "front",
+          "kind": "picture",
+          "name": "lamps",
+          "place": {
+            "x": 56,
+            "y": 142
+          },
+          "size": {
+            "height": 24,
+            "width": 110
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Static",
+          "parts": {
+            "art": {
+              "height": 104,
+              "width": 104,
+              "x": 20,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 144,
+                "x": 0,
+                "y": 108
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 144,
+                "x": 0,
+                "y": 140
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 790,
+            "y": 244
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Squeal",
+          "parts": {
+            "art": {
+              "height": 104,
+              "width": 104,
+              "x": 20,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 144,
+                "x": 0,
+                "y": 108
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 144,
+                "x": 0,
+                "y": 140
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 940,
+            "y": 244
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Ghosts",
+          "parts": {
+            "art": {
+              "height": 104,
+              "width": 104,
+              "x": 20,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 144,
+                "x": 0,
+                "y": 108
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 144,
+                "x": 0,
+                "y": 140
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 1090,
+            "y": 244
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Key",
+          "parts": {
+            "art": {
+              "height": 76,
+              "width": 76,
+              "x": 22,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 28,
+                "width": 120,
+                "x": 0,
+                "y": 80
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 120,
+                "x": 0,
+                "y": 110
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 362,
+            "y": 462
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Mix",
+          "parts": {
+            "art": {
+              "height": 36,
+              "width": 240,
+              "x": 9,
+              "y": 6
+            },
+            "name": {
+              "align": "left",
+              "area": {
+                "height": 30,
+                "width": 110,
+                "x": 9,
+                "y": 62
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "right",
+              "area": {
+                "height": 32,
+                "width": 119,
+                "x": 130,
+                "y": 62
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 690,
+            "y": 478
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Sync",
+          "parts": {
+            "art": {
+              "height": 32,
+              "width": 64,
+              "x": 28,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 28,
+                "width": 120,
+                "x": 10,
+                "y": 76
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 120,
+                "x": 10,
+                "y": 106
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 504,
+            "y": 466
+          }
+        },
+        {
+          "depth": "front",
+          "kind": "picture",
+          "name": "sync-slide",
+          "place": {
+            "x": 522,
+            "y": 466
+          },
+          "size": {
+            "height": 68,
+            "width": 104
+          }
+        },
+        {
+          "depth": "front",
+          "kind": "picture",
+          "name": "mix-slide",
+          "place": {
+            "x": 686,
+            "y": 466
+          },
+          "size": {
+            "height": 68,
+            "width": 266
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Live",
+          "parts": {
+            "art": {
+              "height": 32,
+              "width": 64,
+              "x": 28,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 28,
+                "width": 110,
+                "x": 10,
+                "y": 36
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 110,
+                "x": 10,
+                "y": 36
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26,
+              "hidden": true
+            }
+          },
+          "place": {
+            "x": 591,
+            "y": 330
+          }
+        },
+        {
+          "depth": "front",
+          "kind": "picture",
+          "name": "live-slide",
+          "place": {
+            "x": 609,
+            "y": 330
+          },
+          "size": {
+            "height": 68,
+            "width": 104
+          }
+        },
+        {
+          "depth": "behind",
+          "kind": "picture",
+          "name": "live-dial",
+          "place": {
+            "x": 182,
+            "y": 108
+          },
+          "size": {
+            "height": 50,
+            "width": 796
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Tune",
+          "parts": {
+            "art": {
+              "height": 160,
+              "width": 160,
+              "x": 0,
+              "y": 0
+            },
+            "name": {
+              "align": "left",
+              "area": {
+                "height": 40,
+                "width": 142,
+                "x": 206,
+                "y": 10
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 48,
+                "width": 142,
+                "x": 206,
+                "y": 56
+              },
+              "bold": true,
+              "colour": "#9ff2c9",
+              "font": "Titillium Web",
+              "height": 30
+            }
+          },
+          "place": {
+            "x": 384,
+            "y": 244
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Volume",
+          "parts": {
+            "art": {
+              "height": 36,
+              "width": 540,
+              "x": 9,
+              "y": 6
+            },
+            "name": {
+              "align": "left",
+              "area": {
+                "height": 30,
+                "width": 110,
+                "x": 9,
+                "y": 62
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "right",
+              "area": {
+                "height": 32,
+                "width": 119,
+                "x": 430,
+                "y": 62
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 690,
+            "y": 478
+          }
+        },
+        {
+          "depth": "front",
+          "kind": "picture",
+          "name": "volume-slide",
+          "place": {
+            "x": 686,
+            "y": 466
+          },
+          "size": {
+            "height": 68,
+            "width": 566
+          }
+        },
+        {
+          "depth": "front",
+          "kind": "picture",
+          "name": "on-air",
+          "place": {
+            "x": 914,
+            "y": 525
+          },
+          "size": {
+            "height": 72,
+            "width": 72
+          }
+        }
+      ],
+      "page": "MAIN"
+    },
+    {
+      "artwork": [
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "Futura",
+          "id": 1,
+          "kind": "words",
+          "place": {
+            "x": 452,
+            "y": 44
+          },
+          "size": 20,
+          "text": "SOUND"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "Futura",
+          "id": 2,
+          "kind": "words",
+          "place": {
+            "x": 452,
+            "y": 332
+          },
+          "size": 20,
+          "text": "ECHO"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "Futura",
+          "id": 3,
+          "kind": "words",
+          "place": {
+            "x": 44,
+            "y": 500
+          },
+          "size": 56,
+          "text": "RADIO"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 4,
+          "kind": "words",
+          "place": {
+            "x": 46,
+            "y": 562
+          },
+          "size": 22,
+          "text": "FM SAMPLING RECEIVER"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 5,
+          "kind": "words",
+          "place": {
+            "x": 512,
+            "y": 200
+          },
+          "size": 24,
+          "text": "SPEAKER"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 6,
+          "kind": "words",
+          "place": {
+            "x": 722,
+            "y": 200
+          },
+          "size": 24,
+          "text": "DRIVE"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 7,
+          "kind": "words",
+          "place": {
+            "x": 925,
+            "y": 200
+          },
+          "size": 24,
+          "text": "WOW"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 8,
+          "kind": "words",
+          "place": {
+            "x": 1124,
+            "y": 200
+          },
+          "size": 24,
+          "text": "ROOM"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 9,
+          "kind": "words",
+          "place": {
+            "x": 526,
+            "y": 488
+          },
+          "size": 24,
+          "text": "ECHO"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 10,
+          "kind": "words",
+          "place": {
+            "x": 727,
+            "y": 488
+          },
+          "size": 24,
+          "text": "TIME"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 11,
+          "kind": "words",
+          "place": {
+            "x": 912,
+            "y": 488
+          },
+          "size": 24,
+          "text": "REPEATS"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 12,
+          "kind": "words",
+          "place": {
+            "x": 1126,
+            "y": 488
+          },
+          "size": 24,
+          "text": "TONE"
+        },
+        {
+          "bold": true,
+          "colour": "#24262b",
+          "font": "DIN Condensed",
+          "id": 13,
+          "kind": "words",
+          "place": {
+            "x": 184,
+            "y": 342
+          },
+          "size": 24,
+          "text": "SPEAKER TYPE"
+        }
+      ],
+      "items": [
+        {
+          "kind": "control",
+          "name": "Speaker",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 465,
+            "y": 80
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Drive",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 665,
+            "y": 80
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Wow",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 865,
+            "y": 80
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Room",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 1065,
+            "y": 80
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Echo",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 465,
+            "y": 368
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Echo Time",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 665,
+            "y": 368
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Repeats",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 865,
+            "y": 368
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Echo Tone",
+          "parts": {
+            "art": {
+              "height": 110,
+              "width": 110,
+              "x": 25,
+              "y": 0
+            },
+            "name": {
+              "align": "centre",
+              "area": {
+                "height": 30,
+                "width": 160,
+                "x": 0,
+                "y": 116
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 24,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 32,
+                "width": 160,
+                "x": 0,
+                "y": 150
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 26
+            }
+          },
+          "place": {
+            "x": 1065,
+            "y": 368
+          }
+        },
+        {
+          "kind": "control",
+          "name": "Speaker Type",
+          "parts": {
+            "art": {
+              "height": 76,
+              "width": 76,
+              "x": 0,
+              "y": 0
+            },
+            "name": {
+              "align": "left",
+              "area": {
+                "height": 20,
+                "width": 188,
+                "x": 110,
+                "y": 0
+              },
+              "colour": "#24262b",
+              "font": "Titillium Web",
+              "height": 20,
+              "hidden": true
+            },
+            "value": {
+              "align": "centre",
+              "area": {
+                "height": 48,
+                "width": 188,
+                "x": 110,
+                "y": 20
+              },
+              "bold": true,
+              "colour": "#9ff2c9",
+              "font": "Titillium Web",
+              "height": 28
+            }
+          },
+          "place": {
+            "x": 74,
+            "y": 360
+          }
+        },
+        {
+          "depth": "behind",
+          "kind": "picture",
+          "name": "speaker-type",
+          "place": {
+            "x": 58,
+            "y": 58
+          },
+          "size": {
+            "height": 258,
+            "width": 320
+          }
+        }
+      ],
+      "page": "FX"
+    }
+  ]
+}

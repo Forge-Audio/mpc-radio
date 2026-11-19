@@ -1,0 +1,13 @@
+{ "streams": [
+    { "name": "Soul",    "address": "http://ice4.somafm.com/7soul-128-mp3" },
+    { "name": "Hip Hop", "address": "http://ice6.somafm.com/fluid-128-mp3" },
+    { "name": "Funk",    "address": "http://icecast.radiofrance.fr/fipgroove-midfi.mp3" },
+    { "name": "Reggae",  "address": "http://ice4.somafm.com/reggae-128-mp3" },
+    { "name": "Jazz",    "address": "http://icecast.radiofrance.fr/fipjazz-midfi.mp3" },
+    { "name": "Ambient", "address": "http://ice6.somafm.com/dronezone-128-mp3" },
+    { "name": "Rock",    "address": "http://stream.radioparadise.com/rock-192" },
+    { "name": "House",   "address": "http://ice4.somafm.com/beatblender-128-mp3" },
+    { "name": "World",   "address": "http://stream.radioparadise.com/world-etc-192" },
+    { "name": "Talk",    "address": "http://npr-ice.streamguys1.com/live.mp3" },
+    { "name": "Classic", "address": "http://icecast.radiofrance.fr/francemusiqueclassiqueplus-midfi.mp3" }
+] }

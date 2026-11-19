@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 796 50">
+  <!-- The live band's strip of the tuning window. It follows Live: with Live off it is not there at all and the
+       radio's own station names show; with Live on it lays fresh glass over them and prints the eleven live
+       stations, each under its own marker. Drawn in the page's own measures, then moved to the strip's corner. -->
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20262a"/>
+      <stop offset="1" stop-color="#0e1113"/>
+    </linearGradient>
+    <radialGradient id="backlight" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9ff2c9" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#9ff2c9" stop-opacity="0"/>
+    </radialGradient>
+    <!-- silk-screen capitals: 7 wide, 15 tall, drawn as strokes -->
+    <path id="gA" d="M0 15 L3.5 0 L7 15 M1.4 10 H5.6"/>
+    <path id="gB" d="M0 0 V15 M0 0 H3.5 A3.5 3.5 0 0 1 3.5 7 H0 M3.5 7 A4 4 0 0 1 3.5 15 H0"/>
+    <path id="gC" d="M7 4 V3.5 A3.5 3.5 0 0 0 0 3.5 V11.5 A3.5 3.5 0 0 0 7 11.5 V11"/>
+    <path id="gD" d="M0 0 V15 M0 0 H3 A4 4 0 0 1 7 4 V11 A4 4 0 0 1 3 15 H0"/>
+    <path id="gE" d="M7 0 H0 V15 H7 M0 7.5 H5.5"/>
+    <path id="gF" d="M7 0 H0 V15 M0 7.5 H5.5"/>
+    <path id="gG" d="M7 4 V3.5 A3.5 3.5 0 0 0 0 3.5 V11.5 A3.5 3.5 0 0 0 7 11.5 V8 H4.2"/>
+    <path id="gH" d="M0 0 V15 M7 0 V15 M0 7.5 H7"/>
+    <path id="gI" d="M0 0 V15"/>
+    <path id="gJ" d="M6 0 V11.5 A3 3 0 0 1 0 11.5 V11"/>
+    <path id="gK" d="M0 0 V15 M7 0 L0.5 9 M2.8 6.2 L7 15"/>
+    <path id="gL" d="M0 0 V15 H6.5"/>
+    <path id="gM" d="M0 15 V0 L4.5 9 L9 0 V15"/>
+    <path id="gN" d="M0 15 V0 L7 15 V0"/>
+    <path id="gO" d="M0 3.5 A3.5 3.5 0 0 1 7 3.5 V11.5 A3.5 3.5 0 0 1 0 11.5 Z"/>
+    <path id="gP" d="M0 15 V0 H3 A4 4 0 0 1 3 8 H0"/>
+    <path id="gR" d="M0 15 V0 H3 A4 4 0 0 1 3 8 H0 M3.4 8 L7 15"/>
+    <path id="gS" d="M7 3.7 V3.5 A3.5 3.5 0 0 0 0 3.5 V4 A3.5 3.5 0 0 0 3.5 7.5 A3.5 3.5 0 0 1 7 11 V11.5 A3.5 3.5 0 0 1 0 11.5 V11.3"/>
+    <path id="gT" d="M0 0 H7 M3.5 0 V15"/>
+    <path id="gU" d="M0 0 V11.5 A3.5 3.5 0 0 0 7 11.5 V0"/>
+    <path id="gW" d="M0 0 L2.3 15 L5 3 L7.7 15 L10 0"/>
+    <path id="gZ" d="M0 0 H7 L0 15 H7"/>
+  </defs>
+
+  <g transform="translate(-182 -108)" opacity="{t}">
+    <!-- the same glass and the same glow as the window, so the strip cannot be seen as a patch -->
+    <rect x="36" y="24" width="960" height="160" fill="url(#glass)"/>
+    <ellipse cx="580" cy="106" rx="430" ry="90" fill="url(#backlight)"/>
+
+    <!-- a marker under the scale at each live station -->
+    <g fill="#ff3b4e">
+      <path d="M 231.8 111 l 6 10 l -12 0 Z"/>
+      <path d="M 300.3 111 l 6 10 l -12 0 Z"/>
+      <path d="M 368.8 111 l 6 10 l -12 0 Z"/>
+      <path d="M 437.3 111 l 6 10 l -12 0 Z"/>
+      <path d="M 505.8 111 l 6 10 l -12 0 Z"/>
+      <path d="M 574.3 111 l 6 10 l -12 0 Z"/>
+      <path d="M 642.8 111 l 6 10 l -12 0 Z"/>
+      <path d="M 711.3 111 l 6 10 l -12 0 Z"/>
+      <path d="M 779.8 111 l 6 10 l -12 0 Z"/>
+      <path d="M 848.2 111 l 6 10 l -12 0 Z"/>
+      <path d="M 916.7 111 l 6 10 l -12 0 Z"/>
+    </g>
+
+    <g fill="none" stroke="#9ff2c9" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter">
+      <!-- SOUL 88.6 -->
+      <use href="#gS" x="211.6" y="133.5"/><use href="#gO" x="222.9" y="133.5"/><use href="#gU" x="234.2" y="133.5"/><use href="#gL" x="245.5" y="133.5"/>
+      <!-- HIPHOP 90.4 -->
+      <use href="#gH" x="272.1" y="133.5"/><use href="#gI" x="283.4" y="133.5"/><use href="#gP" x="287.7" y="133.5"/><use href="#gH" x="299" y="133.5"/><use href="#gO" x="310.3" y="133.5"/><use href="#gP" x="321.6" y="133.5"/>
+      <!-- FUNK 92.2 -->
+      <use href="#gF" x="348.4" y="133.5"/><use href="#gU" x="359.7" y="133.5"/><use href="#gN" x="371" y="133.5"/><use href="#gK" x="382.3" y="133.5"/>
+      <!-- REGGAE 94.0 -->
+      <use href="#gR" x="405.6" y="133.5"/><use href="#gE" x="416.9" y="133.5"/><use href="#gG" x="428.2" y="133.5"/><use href="#gG" x="439.5" y="133.5"/><use href="#gA" x="450.8" y="133.5"/><use href="#gE" x="462.1" y="133.5"/>
+      <!-- JAZZ 95.8 -->
+      <use href="#gJ" x="485.8" y="133.5"/><use href="#gA" x="496.1" y="133.5"/><use href="#gZ" x="507.4" y="133.5"/><use href="#gZ" x="518.7" y="133.5"/>
+      <!-- AMBIENT 97.6 -->
+      <use href="#gA" x="539.1" y="133.5"/><use href="#gM" x="550.4" y="133.5"/><use href="#gB" x="563.7" y="133.5"/><use href="#gI" x="575.5" y="133.5"/><use href="#gE" x="579.8" y="133.5"/><use href="#gN" x="591.1" y="133.5"/><use href="#gT" x="602.4" y="133.5"/>
+      <!-- ROCK 99.4 -->
+      <use href="#gR" x="622.3" y="133.5"/><use href="#gO" x="633.6" y="133.5"/><use href="#gC" x="644.9" y="133.5"/><use href="#gK" x="656.2" y="133.5"/>
+      <!-- HOUSE 101.2 -->
+      <use href="#gH" x="685.2" y="133.5"/><use href="#gO" x="696.5" y="133.5"/><use href="#gU" x="707.8" y="133.5"/><use href="#gS" x="719.1" y="133.5"/><use href="#gE" x="730.4" y="133.5"/>
+      <!-- WORLD 103.0 -->
+      <use href="#gW" x="752.4" y="133.5"/><use href="#gO" x="766.7" y="133.5"/><use href="#gR" x="778" y="133.5"/><use href="#gL" x="789.3" y="133.5"/><use href="#gD" x="800.1" y="133.5"/>
+      <!-- TALK 104.8 -->
+      <use href="#gT" x="828" y="133.5"/><use href="#gA" x="839.3" y="133.5"/><use href="#gL" x="850.6" y="133.5"/><use href="#gK" x="861.4" y="133.5"/>
+      <!-- CLASSIC 106.6 -->
+      <use href="#gC" x="883.1" y="133.5"/><use href="#gL" x="894.4" y="133.5"/><use href="#gA" x="905.2" y="133.5"/><use href="#gS" x="916.5" y="133.5"/><use href="#gS" x="927.8" y="133.5"/><use href="#gI" x="939.1" y="133.5"/><use href="#gC" x="943.4" y="133.5"/>
+    </g>
+  </g>
+</svg>

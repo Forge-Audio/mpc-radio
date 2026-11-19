@@ -1,0 +1,17 @@
+{
+    "name": "MPC Radio",
+    "manufacturer": "Steph",
+    "version": "1.0.0",
+    "format": "vst2",
+    "kind": "effect",
+    "uid": "SOo3",
+    "numInputs": 2,
+    "numOutputs": 2,
+    "category": "Effect",
+    "file32": "VST/mpc-radio-arm32.so",
+    "file64": "VST/mpc-radio-arm64.so",
+    "description": "MPC Radio is a radio dial that plays live internet stations, with hiss, crackle, sliding whistles and half-heard ghosts between them and a perfectly clean signal once a station locks in.",
+    "author": "Steph",
+    "url": "https://github.com/Forge-Audio/mpc-radio",
+    "license": "MIT"
+}

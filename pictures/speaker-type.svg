@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 258">
+  <!-- The speaker bay on the FX page. It follows Speaker Type: six frames, one speaker each, standing on the
+       shelf behind the glass. 0 Pocket, 1 Boombox, 2 Car, 3 Phone, 4 Wood, 5 Horn. -->
+  <defs>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2cc2c7"/>
+      <stop offset="1" stop-color="#12868a"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eeece4"/>
+      <stop offset="1" stop-color="#a9a598"/>
+    </linearGradient>
+    <linearGradient id="charcoal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5158"/>
+      <stop offset="1" stop-color="#2a2f34"/>
+    </linearGradient>
+    <linearGradient id="walnut" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a06c42"/>
+      <stop offset="1" stop-color="#5c3a22"/>
+    </linearGradient>
+    <linearGradient id="grape" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5cc4"/>
+      <stop offset="1" stop-color="#5a3390"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3eedd"/>
+      <stop offset="1" stop-color="#c9c2aa"/>
+    </linearGradient>
+    <radialGradient id="cone" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#3a4046"/>
+      <stop offset="1" stop-color="#0e1113"/>
+    </radialGradient>
+    <pattern id="holes" x="0" y="0" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2.2" cy="2.2" r="1.6" fill="#0e1113"/>
+      <circle cx="6.7" cy="6.7" r="1.6" fill="#0e1113"/>
+    </pattern>
+    <pattern id="cloth" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#cdbb88"/>
+      <rect x="0" y="0" width="3" height="3" fill="#b09c68"/>
+      <rect x="3" y="3" width="3" height="3" fill="#b09c68"/>
+    </pattern>
+  </defs>
+
+  <!-- 0 POCKET: a small plastic transistor radio with its aerial up -->
+  <g opacity="{max(0, 1 - abs(t * 5 - 0))}">
+    <ellipse cx="160" cy="232" rx="100" ry="7" fill="#000000" opacity="0.45"/>
+    <line x1="226" y1="92" x2="284" y2="26" stroke="#d8d5cb" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="284" cy="26" r="5" fill="#eeece4"/>
+    <rect x="62" y="88" width="196" height="142" rx="16" fill="url(#teal)"/>
+    <rect x="62" y="88" width="196" height="142" rx="16" fill="none" stroke="#0c5c60" stroke-width="2"/>
+    <rect x="70" y="92" width="180" height="3" rx="1.5" fill="#ffffff" opacity="0.45"/>
+    <circle cx="124" cy="160" r="50" fill="#d8d5cb"/>
+    <circle cx="124" cy="160" r="45" fill="#3d3b36"/>
+    <circle cx="124" cy="160" r="45" fill="url(#holes)"/>
+    <rect x="190" y="106" width="54" height="26" rx="4" fill="#15191c"/>
+    <line x1="196" y1="124" x2="238" y2="124" stroke="#9ff2c9" stroke-width="2"/>
+    <line x1="222" y1="110" x2="222" y2="128" stroke="#ff3b4e" stroke-width="3"/>
+    <circle cx="217" cy="170" r="21" fill="#eeece4"/>
+    <circle cx="217" cy="170" r="21" fill="none" stroke="#8f8b7f" stroke-width="2"/>
+    <circle cx="217" cy="170" r="13" fill="#d8d5cb"/>
+    <line x1="217" y1="170" x2="228" y2="157" stroke="#24262b" stroke-width="3" stroke-linecap="round"/>
+    <rect x="196" y="204" width="42" height="8" rx="4" fill="#0c5c60"/>
+    <circle cx="205" cy="208" r="3" fill="#ff3b4e"/>
+  </g>
+
+  <!-- 1 BOOMBOX: two big woofers, a cassette door, a carrying handle -->
+  <g opacity="{max(0, 1 - abs(t * 5 - 1))}">
+    <ellipse cx="160" cy="232" rx="146" ry="7" fill="#000000" opacity="0.45"/>
+    <path d="M 78 92 L 78 62 Q 78 52 88 52 L 232 52 Q 242 52 242 62 L 242 92" fill="none" stroke="url(#silver)" stroke-width="9" stroke-linejoin="round"/>
+    <rect x="18" y="88" width="284" height="142" rx="12" fill="url(#charcoal)"/>
+    <rect x="18" y="88" width="284" height="142" rx="12" fill="none" stroke="#d8d5cb" stroke-width="3"/>
+    <rect x="26" y="96" width="268" height="20" rx="4" fill="url(#silver)"/>
+    <rect x="118" y="99" width="84" height="14" rx="2" fill="#15191c"/>
+    <line x1="124" y1="109" x2="196" y2="109" stroke="#9ff2c9" stroke-width="2"/>
+    <line x1="170" y1="101" x2="170" y2="111" stroke="#ff3b4e" stroke-width="3"/>
+    <circle cx="44" cy="106" r="6" fill="#24262b"/><circle cx="64" cy="106" r="6" fill="#24262b"/>
+    <circle cx="256" cy="106" r="6" fill="#24262b"/><circle cx="276" cy="106" r="6" fill="#24262b"/>
+    <g>
+      <circle cx="72" cy="172" r="48" fill="url(#silver)"/>
+      <circle cx="72" cy="172" r="41" fill="url(#cone)"/>
+      <circle cx="72" cy="172" r="30" fill="none" stroke="#4d545b" stroke-width="2"/>
+      <circle cx="72" cy="172" r="14" fill="#6b737b"/>
+      <circle cx="68" cy="168" r="5" fill="#a9b0b6"/>
+      <circle cx="248" cy="172" r="48" fill="url(#silver)"/>
+      <circle cx="248" cy="172" r="41" fill="url(#cone)"/>
+      <circle cx="248" cy="172" r="30" fill="none" stroke="#4d545b" stroke-width="2"/>
+      <circle cx="248" cy="172" r="14" fill="#6b737b"/>
+      <circle cx="244" cy="168" r="5" fill="#a9b0b6"/>
+    </g>
+    <rect x="128" y="126" width="64" height="58" rx="5" fill="#15191c"/>
+    <rect x="128" y="126" width="64" height="58" rx="5" fill="none" stroke="#6b737b" stroke-width="2"/>
+    <rect x="135" y="134" width="50" height="30" rx="3" fill="#e9e3d0"/>
+    <rect x="135" y="134" width="50" height="6" fill="#18a3a8"/>
+    <circle cx="149" cy="152" r="6" fill="#24262b"/><circle cx="171" cy="152" r="6" fill="#24262b"/>
+    <g fill="#d8d5cb">
+      <rect x="128" y="194" width="12" height="20" rx="2"/>
+      <rect x="143" y="194" width="12" height="20" rx="2"/>
+      <rect x="158" y="194" width="12" height="20" rx="2"/>
+    </g>
+    <rect x="173" y="194" width="19" height="20" rx="2" fill="#ff3b4e"/>
+  </g>
+
+  <!-- 2 CAR: a hatchback with the music coming out of its door -->
+  <g opacity="{max(0, 1 - abs(t * 5 - 2))}">
+    <ellipse cx="160" cy="232" rx="146" ry="7" fill="#000000" opacity="0.45"/>
+    <path d="M 22 204 L 22 164 Q 26 144 54 140 L 100 132 L 134 92 Q 140 84 152 84 L 224 84 Q 236 84 244 94 L 268 134 Q 296 140 298 162 L 298 204 Z" fill="url(#grape)"/>
+    <path d="M 22 204 L 22 164 Q 26 144 54 140 L 100 132 L 134 92 Q 140 84 152 84 L 224 84 Q 236 84 244 94 L 268 134 Q 296 140 298 162 L 298 204 Z" fill="none" stroke="#3d2268" stroke-width="2"/>
+    <path d="M 142 96 L 114 132 L 178 132 L 178 96 Z" fill="#9ff2c9" opacity="0.55"/>
+    <path d="M 188 96 L 188 132 L 254 132 L 234 98 Q 232 96 228 96 Z" fill="#9ff2c9" opacity="0.55"/>
+    <line x1="183" y1="134" x2="183" y2="202" stroke="#3d2268" stroke-width="2"/>
+    <rect x="22" y="188" width="276" height="10" fill="#3d2268" opacity="0.7"/>
+    <rect x="286" y="150" width="12" height="12" rx="3" fill="#ff3b4e"/>
+    <rect x="22" y="158" width="10" height="12" rx="3" fill="#f3eedd"/>
+    <rect x="196" y="146" width="20" height="5" rx="2.5" fill="#3d2268"/>
+    <g>
+      <circle cx="84" cy="206" r="28" fill="#15191c"/>
+      <circle cx="84" cy="206" r="14" fill="url(#silver)"/>
+      <circle cx="84" cy="206" r="4" fill="#24262b"/>
+      <circle cx="240" cy="206" r="28" fill="#15191c"/>
+      <circle cx="240" cy="206" r="14" fill="url(#silver)"/>
+      <circle cx="240" cy="206" r="4" fill="#24262b"/>
+    </g>
+    <!-- the door speaker and what comes out of it -->
+    <circle cx="146" cy="166" r="17" fill="#24262b"/>
+    <circle cx="146" cy="166" r="14" fill="#3d3b36"/>
+    <circle cx="146" cy="166" r="14" fill="url(#holes)"/>
+    <g fill="none" stroke="#9ff2c9" stroke-width="4" stroke-linecap="round">
+      <path d="M 116 58 Q 146 38 176 58"/>
+      <path d="M 100 38 Q 146 6 192 38" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- 3 PHONE: a telephone handset, no cord -->
+  <g opacity="{max(0, 1 - abs(t * 5 - 3))}">
+    <ellipse cx="160" cy="232" rx="110" ry="7" fill="#000000" opacity="0.45"/>
+    <!-- no cord: the musician asked for it to go, so the handset stands alone -->
+    <g transform="translate(160 122) rotate(-24)">
+      <path d="M -92 14 Q 0 -78 92 14" fill="none" stroke="#a9a598" stroke-width="42" stroke-linecap="round"/>
+      <path d="M -92 10 Q 0 -82 92 10" fill="none" stroke="url(#cream)" stroke-width="38" stroke-linecap="round"/>
+      <ellipse cx="-96" cy="34" rx="44" ry="34" fill="#a9a598"/>
+      <ellipse cx="-96" cy="30" rx="44" ry="34" fill="url(#cream)"/>
+      <ellipse cx="96" cy="34" rx="44" ry="34" fill="#a9a598"/>
+      <ellipse cx="96" cy="30" rx="44" ry="34" fill="url(#cream)"/>
+      <ellipse cx="-96" cy="40" rx="30" ry="18" fill="#24262b"/>
+      <g fill="#c9c2aa">
+        <circle cx="-96" cy="40" r="3.5"/>
+        <circle cx="-108" cy="40" r="3.5"/><circle cx="-84" cy="40" r="3.5"/>
+        <circle cx="-102" cy="31" r="3.5"/><circle cx="-90" cy="31" r="3.5"/>
+        <circle cx="-102" cy="49" r="3.5"/><circle cx="-90" cy="49" r="3.5"/>
+      </g>
+      <ellipse cx="96" cy="40" rx="30" ry="18" fill="#24262b"/>
+      <g fill="#c9c2aa">
+        <circle cx="86" cy="36" r="3"/><circle cx="96" cy="36" r="3"/><circle cx="106" cy="36" r="3"/>
+        <circle cx="86" cy="45" r="3"/><circle cx="96" cy="45" r="3"/><circle cx="106" cy="45" r="3"/>
+      </g>
+      <path d="M -70 -16 Q 0 -74 70 -16" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- 4 WOOD: an old arched cabinet set with a cloth grille -->
+  <g opacity="{max(0, 1 - abs(t * 5 - 4))}">
+    <ellipse cx="160" cy="232" rx="108" ry="7" fill="#000000" opacity="0.45"/>
+    <path d="M 70 226 L 70 112 Q 70 24 160 24 Q 250 24 250 112 L 250 226 Z" fill="url(#walnut)"/>
+    <path d="M 70 226 L 70 112 Q 70 24 160 24 Q 250 24 250 112 L 250 226 Z" fill="none" stroke="#3c2516" stroke-width="3"/>
+    <path d="M 82 220 L 82 112 Q 82 36 160 36 Q 238 36 238 112 L 238 220" fill="none" stroke="#c08a58" stroke-width="2" opacity="0.6"/>
+    <path d="M 102 150 L 102 112 Q 102 56 160 56 Q 218 56 218 112 L 218 150 Z" fill="url(#cloth)"/>
+    <g fill="#5c3a22">
+      <rect x="128" y="62" width="7" height="88"/>
+      <rect x="156.5" y="56" width="7" height="94"/>
+      <rect x="185" y="62" width="7" height="88"/>
+    </g>
+    <path d="M 102 150 L 102 112 Q 102 56 160 56 Q 218 56 218 112 L 218 150 Z" fill="none" stroke="#3c2516" stroke-width="3"/>
+    <path d="M 128 196 A 32 32 0 0 1 192 196 Z" fill="#f3eedd"/>
+    <path d="M 128 196 A 32 32 0 0 1 192 196 Z" fill="none" stroke="#3c2516" stroke-width="2.5"/>
+    <line x1="160" y1="196" x2="176" y2="172" stroke="#ff3b4e" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="100" cy="188" r="12" fill="#24262b"/><circle cx="100" cy="188" r="5" fill="#c08a58"/>
+    <circle cx="220" cy="188" r="12" fill="#24262b"/><circle cx="220" cy="188" r="5" fill="#c08a58"/>
+    <rect x="60" y="218" width="200" height="12" rx="3" fill="#3c2516"/>
+  </g>
+
+  <!-- 5 HORN: a tannoy horn on its bracket -->
+  <g opacity="{max(0, 1 - abs(t * 5 - 5))}">
+    <ellipse cx="150" cy="232" rx="96" ry="7" fill="#000000" opacity="0.45"/>
+    <rect x="132" y="150" width="12" height="76" fill="#8f8b7f"/>
+    <rect x="100" y="220" width="76" height="10" rx="3" fill="#6b737b"/>
+    <path d="M 112 150 Q 138 176 164 150" fill="none" stroke="#8f8b7f" stroke-width="8" stroke-linecap="round"/>
+    <rect x="26" y="88" width="46" height="52" rx="8" fill="url(#charcoal)"/>
+    <rect x="26" y="88" width="46" height="52" rx="8" fill="none" stroke="#6b737b" stroke-width="2"/>
+    <rect x="68" y="98" width="20" height="32" fill="#6b737b"/>
+    <path d="M 86 100 Q 170 92 236 28 L 236 200 Q 170 136 86 128 Z" fill="url(#silver)"/>
+    <path d="M 86 100 Q 170 92 236 28 L 236 200 Q 170 136 86 128 Z" fill="none" stroke="#6b737b" stroke-width="2"/>
+    <path d="M 96 104 Q 170 98 228 46" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+    <ellipse cx="236" cy="114" rx="22" ry="86" fill="#ff3b4e"/>
+    <ellipse cx="236" cy="114" rx="16" ry="78" fill="#6b737b"/>
+    <ellipse cx="238" cy="114" rx="11" ry="66" fill="#15191c"/>
+    <g fill="none" stroke="#9ff2c9" stroke-width="4" stroke-linecap="round">
+      <path d="M 274 84 Q 288 114 274 144"/>
+      <path d="M 292 66 Q 314 114 292 162" opacity="0.6"/>
+    </g>
+  </g>
+</svg>

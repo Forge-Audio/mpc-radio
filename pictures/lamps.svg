@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 24">
+  <!-- Five signal lamps. They follow the hidden Signal control, which the plugin sets from how well the dial
+       is really locked: six frames, for none to five lamps lit. On the live band one lamp blinks while a
+       station is still arriving. -->
+  <g>
+    <circle cx="12" cy="12" r="8" fill="#3a1418"/>
+    <circle cx="33.5" cy="12" r="8" fill="#3a1418"/>
+    <circle cx="55" cy="12" r="8" fill="#3a1418"/>
+    <circle cx="76.5" cy="12" r="8" fill="#3a1418"/>
+    <circle cx="98" cy="12" r="8" fill="#3a1418"/>
+  </g>
+  <g>
+    <circle cx="12" cy="12" r="11" fill="#ff3b4e" opacity="{0.28 * min(1, max(0, round(5 * t) - 0))}"/>
+    <circle cx="12" cy="12" r="7.5" fill="#ff3b4e" opacity="{min(1, max(0, round(5 * t) - 0))}"/>
+    <circle cx="33.5" cy="12" r="11" fill="#ff3b4e" opacity="{0.28 * min(1, max(0, round(5 * t) - 1))}"/>
+    <circle cx="33.5" cy="12" r="7.5" fill="#ff3b4e" opacity="{min(1, max(0, round(5 * t) - 1))}"/>
+    <circle cx="55" cy="12" r="11" fill="#ff3b4e" opacity="{0.28 * min(1, max(0, round(5 * t) - 2))}"/>
+    <circle cx="55" cy="12" r="7.5" fill="#ff3b4e" opacity="{min(1, max(0, round(5 * t) - 2))}"/>
+    <circle cx="76.5" cy="12" r="11" fill="#ff3b4e" opacity="{0.28 * min(1, max(0, round(5 * t) - 3))}"/>
+    <circle cx="76.5" cy="12" r="7.5" fill="#ff3b4e" opacity="{min(1, max(0, round(5 * t) - 3))}"/>
+    <circle cx="98" cy="12" r="11" fill="#ff3b4e" opacity="{0.28 * min(1, max(0, round(5 * t) - 4))}"/>
+    <circle cx="98" cy="12" r="7.5" fill="#ff3b4e" opacity="{min(1, max(0, round(5 * t) - 4))}"/>
+  </g>
+  <g fill="#ffffff" opacity="0.35">
+    <circle cx="9.5" cy="9.5" r="2"/>
+    <circle cx="31" cy="9.5" r="2"/>
+    <circle cx="52.5" cy="9.5" r="2"/>
+    <circle cx="74" cy="9.5" r="2"/>
+    <circle cx="95.5" cy="9.5" r="2"/>
+  </g>
+</svg>

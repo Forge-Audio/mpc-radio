@@ -1,0 +1,9 @@
+{ "pictures": [
+  { "name": "front", "page": "MAIN", "where": "backdrop" },
+  { "name": "needle", "page": "MAIN", "where": { "row": 4, "column": 3 }, "motion": { "follows": "Tune" }, "frames": 64 },
+  { "name": "lamps", "page": "MAIN", "where": { "row": 4, "column": 1 }, "motion": { "follows": "Signal" }, "frames": 6 },
+  { "name": "deck", "page": "FX", "where": "backdrop" },
+  { "name": "volume-slide", "page": "MAIN", "where": { "row": 3, "column": 4 }, "motion": { "follows": "Volume" }, "frames": 64 },
+  { "name": "on-air", "page": "MAIN", "where": { "row": 4, "column": 2 }, "motion": { "follows": "Signal" }, "frames": 6 },
+  { "name": "speaker-type", "page": "FX", "where": { "row": 4, "column": 1 }, "motion": { "follows": "Speaker Type" }, "frames": 6 }
+] }

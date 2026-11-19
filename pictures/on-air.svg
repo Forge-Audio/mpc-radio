@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- The live lamp: one red jewel light in a chrome bezel, with no lettering. It follows the hidden Signal
+       control, which the plugin sets from how well the dial is locked to a live station: dark between
+       stations, a faint glow while a station is still arriving, fully lit with a halo once it plays. -->
+  <defs>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff3b4e" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#ff3b4e" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ff3b4e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfcf8"/>
+      <stop offset="0.46" stop-color="#a9a69c"/>
+      <stop offset="0.54" stop-color="#e6e3d9"/>
+      <stop offset="1" stop-color="#7b786f"/>
+    </linearGradient>
+    <radialGradient id="dark" cx="0.42" cy="0.38" r="0.7">
+      <stop offset="0" stop-color="#6a1c25"/>
+      <stop offset="1" stop-color="#2c0a0e"/>
+    </radialGradient>
+    <radialGradient id="lit" cx="0.46" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#ff7d88"/>
+      <stop offset="0.55" stop-color="#ff3b4e"/>
+      <stop offset="1" stop-color="#c41f31"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1f2" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffd9dc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- the light it throws on the plastic -->
+  <circle cx="75" cy="75" r="74" fill="url(#halo)" opacity="{t}"/>
+
+  <!-- chrome bezel, lit from the top left -->
+  <circle cx="76" cy="78" r="38" fill="#3a3528" opacity="0.3"/>
+  <circle cx="75" cy="75" r="38" fill="url(#chrome)"/>
+  <circle cx="75" cy="75" r="38" fill="none" stroke="#6f6b60" stroke-width="1.2"/>
+  <circle cx="75" cy="75" r="30" fill="#12090a"/>
+
+  <!-- the jewel: dark when off, red when lit -->
+  <circle cx="75" cy="75" r="27.5" fill="url(#dark)"/>
+  <circle cx="75" cy="75" r="27.5" fill="url(#lit)" opacity="{t}"/>
+  <circle cx="75" cy="75" r="17" fill="url(#core)" opacity="{0.85 * t}"/>
+  <!-- the rings moulded into the lens -->
+  <g fill="none" stroke="#1a0507" opacity="0.22">
+    <circle cx="75" cy="75" r="21" stroke-width="1.4"/>
+    <circle cx="75" cy="75" r="14" stroke-width="1.2"/>
+    <circle cx="75" cy="75" r="7" stroke-width="1"/>
+  </g>
+  <circle cx="75" cy="75" r="27.5" fill="none" stroke="#0a0304" stroke-width="1.5"/>
+  <!-- light on the glass -->
+  <ellipse cx="65" cy="62" rx="10" ry="5.5" fill="#ffffff" opacity="0.4" transform="rotate(-35 65 62)"/>
+  <path d="M 56 88 A 23 23 0 0 0 92 91" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.14"/>
+</svg>

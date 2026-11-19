@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 628">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcd8cc"/>
+      <stop offset="0.55" stop-color="#cfcbbf"/>
+      <stop offset="1" stop-color="#bcb8ab"/>
+    </linearGradient>
+    <radialGradient id="rim" cx="0.45" cy="0.42" r="0.8">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3a3528" stop-opacity="0.3"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#262c31"/>
+      <stop offset="1" stop-color="#0e1113"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8f8b7f"/>
+      <stop offset="1" stop-color="#e6e2d6"/>
+    </linearGradient>
+    <linearGradient id="well" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a39f92"/>
+      <stop offset="1" stop-color="#c9c5b8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3afa2"/>
+      <stop offset="0.12" stop-color="#c4c0b3"/>
+      <stop offset="1" stop-color="#cbc7ba"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4046"/>
+      <stop offset="1" stop-color="#24282c"/>
+    </linearGradient>
+    <g id="ticks">
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(-135)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(-108)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(-81)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(-54)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(-27)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(0)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(27)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(54)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(81)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(108)"/>
+      <line x1="0" y1="-59" x2="0" y2="-65" transform="rotate(135)"/>
+    </g>
+    <pattern id="grain" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="2" r="0.7" fill="#ffffff" opacity="0.2"/>
+      <circle cx="5" cy="5.5" r="0.7" fill="#5a5648" opacity="0.14"/>
+    </pattern>
+    <pattern id="ribs" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="5" height="10" fill="#8f8b7f" opacity="0.55"/>
+      <rect x="5" y="0" width="1" height="10" fill="#f1eee4" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- the plastic body -->
+  <rect width="1280" height="628" fill="url(#body)"/>
+  <rect width="1280" height="628" fill="url(#grain)"/>
+  <rect width="1280" height="628" fill="url(#rim)"/>
+  <rect x="0" y="0" width="1280" height="3" fill="#f3f0e6" opacity="0.8"/>
+  <rect x="0" y="610" width="1280" height="18" fill="#8d897c"/>
+  <rect x="0" y="608" width="1280" height="2" fill="#6f6b60"/>
+  <rect x="0" y="610" width="1280" height="2" fill="#a7a396"/>
+
+  <!-- cassette door -->
+  <rect x="32" y="30" width="372" height="446" rx="18" fill="url(#bezel)"/>
+  <rect x="42" y="40" width="352" height="426" rx="11" fill="#bdb9ac"/>
+  <rect x="42" y="40" width="352" height="426" rx="11" fill="none" stroke="#8a867a" stroke-width="2"/>
+  <!-- the speaker bay: the chosen speaker is a picture that follows Speaker Type and stands behind this glass -->
+  <rect x="58" y="58" width="320" height="258" rx="8" fill="url(#glass)"/>
+  <rect x="58" y="58" width="320" height="258" rx="8" fill="none" stroke="#050607" stroke-width="2"/>
+  <!-- a shelf for the speaker to stand on, and light on the glass -->
+  <rect x="60" y="282" width="316" height="32" fill="#2a3035" opacity="0.8"/>
+  <rect x="60" y="282" width="316" height="2" fill="#4d545b"/>
+  <path d="M 58 66 Q 58 58 66 58 L 250 58 L 154 316 L 58 316 Z" fill="#ffffff" opacity="0.04"/>
+  <path d="M 290 58 L 330 58 L 234 316 L 194 316 Z" fill="#ffffff" opacity="0.03"/>
+  <!-- the well for the Type dial, with a mark for each of the six speakers -->
+  <circle cx="112" cy="398" r="50" fill="url(#well)"/>
+  <circle cx="112" cy="398" r="50" fill="none" stroke="#8a867a" stroke-width="2"/>
+  <g transform="translate(112 398)" stroke="#24262b" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <line x1="0" y1="-42" x2="0" y2="-47" transform="rotate(-135)"/>
+    <line x1="0" y1="-42" x2="0" y2="-47" transform="rotate(-81)"/>
+    <line x1="0" y1="-42" x2="0" y2="-47" transform="rotate(-27)"/>
+    <line x1="0" y1="-42" x2="0" y2="-47" transform="rotate(27)"/>
+    <line x1="0" y1="-42" x2="0" y2="-47" transform="rotate(81)"/>
+    <line x1="0" y1="-42" x2="0" y2="-47" transform="rotate(135)"/>
+  </g>
+  <!-- Type's readout -->
+  <rect x="180" y="376" width="196" height="56" rx="8" fill="url(#bezel)"/>
+  <rect x="184" y="380" width="188" height="48" rx="5" fill="url(#glass)"/>
+  <rect x="184" y="380" width="188" height="48" rx="5" fill="none" stroke="#050607" stroke-width="1.5"/>
+
+  <!-- name plate squiggle -->
+  <path d="M 262 548 l 16 -18 l 16 18 l 16 -18 l 16 18 l 16 -18 l 16 18" fill="none" stroke="#18a3a8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="386" cy="568" r="9" fill="#ff3b4e"/>
+  <rect x="44" y="588" width="356" height="4" rx="2" fill="#24262b" opacity="0.75"/>
+
+  <!-- SOUND panel -->
+  <rect x="432" y="28" width="822" height="266" rx="16" fill="url(#panel)"/>
+  <rect x="432" y="28" width="822" height="266" rx="16" fill="none" stroke="#8f8b7f" stroke-width="2"/>
+  <path d="M 448 293 L 1238 293" stroke="#f1eee4" stroke-width="2" opacity="0.8"/>
+  <rect x="548" y="55" width="686" height="2" fill="#24262b" opacity="0.5"/>
+  <!-- ECHO panel -->
+  <rect x="432" y="316" width="822" height="266" rx="16" fill="url(#panel)"/>
+  <rect x="432" y="316" width="822" height="266" rx="16" fill="none" stroke="#8f8b7f" stroke-width="2"/>
+  <path d="M 448 581 L 1238 581" stroke="#f1eee4" stroke-width="2" opacity="0.8"/>
+  <rect x="534" y="343" width="700" height="2" fill="#24262b" opacity="0.5"/>
+
+  <!-- wells for the eight dials -->
+  <g>
+    <circle cx="545" cy="135" r="68" fill="url(#well)"/><circle cx="545" cy="135" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+    <circle cx="745" cy="135" r="68" fill="url(#well)"/><circle cx="745" cy="135" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+    <circle cx="945" cy="135" r="68" fill="url(#well)"/><circle cx="945" cy="135" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+    <circle cx="1145" cy="135" r="68" fill="url(#well)"/><circle cx="1145" cy="135" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+    <circle cx="545" cy="423" r="68" fill="url(#well)"/><circle cx="545" cy="423" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+    <circle cx="745" cy="423" r="68" fill="url(#well)"/><circle cx="745" cy="423" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+    <circle cx="945" cy="423" r="68" fill="url(#well)"/><circle cx="945" cy="423" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+    <circle cx="1145" cy="423" r="68" fill="url(#well)"/><circle cx="1145" cy="423" r="68" fill="none" stroke="#8a867a" stroke-width="2"/>
+  </g>
+
+  <g stroke="#24262b" stroke-width="2.5" stroke-linecap="round" opacity="0.7">
+    <use href="#ticks" x="545" y="135"/>
+    <use href="#ticks" x="745" y="135"/>
+    <use href="#ticks" x="945" y="135"/>
+    <use href="#ticks" x="1145" y="135"/>
+    <use href="#ticks" x="545" y="423"/>
+    <use href="#ticks" x="745" y="423"/>
+    <use href="#ticks" x="945" y="423"/>
+    <use href="#ticks" x="1145" y="423"/>
+  </g>
+
+  <!-- case screws -->
+  <g>
+    <circle cx="418" cy="44" r="6" fill="#8f8b7f"/><rect x="413" y="43" width="10" height="2" fill="#4f4c44" transform="rotate(35 418 44)"/>
+    <circle cx="418" cy="592" r="6" fill="#8f8b7f"/><rect x="413" y="591" width="10" height="2" fill="#4f4c44" transform="rotate(-20 418 592)"/>
+    <circle cx="1266" cy="304" r="6" fill="#8f8b7f"/><rect x="1261" y="303" width="10" height="2" fill="#4f4c44" transform="rotate(60 1266 304)"/>
+  </g>
+</svg>
